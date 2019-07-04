@@ -4,8 +4,7 @@
 #KagaAdaFaedahnyaNgeRecode!
 #MikirMakeOtakGblk!
 clear
-cd module
-python2 please.py
+cd modul
 blue='\033[34;1m'
 green='\033[32;1m'  
 purple='\033[35;1m'
@@ -26,7 +25,7 @@ echo ""
 echo "\033[32;1mPilih Sendiri Ngentod!:)?:"
 echo "\033[36;1m"
 echo "[===============================================]>"
-echo $blue "1.> Cari CC Untuk Carding"
+echo $blue "1.> Install Weeman"
 echo "[===============================================]>"
 echo $yellow "2.> Install Red_Hawk"
 echo "[===============================================]>"
@@ -39,13 +38,19 @@ echo "[===============================================]>"
 echo $red "0.> keluar"
 echo "[+]===============================================[+]"
 echo "\033[32;1m"
-read -p "root@Tools-Nobs~# " vro
+read -p "root@☆¤☆~# " vro
 
 if [ $vro = 1 ] || [ $vro = 1 ]
 then
 clear
-toilet "CoumingX"
-php key.php
+figlet "CoumingX" | lolcat
+sleep 1 
+apt install git
+apt install php
+git clone https://github.com/evait-security/weeman.git
+mv weeman $HOME
+cd $HOME/weeman
+python2 weeman.py
 fi
 
 
