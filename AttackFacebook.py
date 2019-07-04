@@ -9,6 +9,9 @@ import cookielib
 import pdb
 
 GHT = '''
+
+
+'''
         +=======================================+
         || Usurname : CoumingX                 ||
         || Facebook : Oh                       ||
@@ -19,7 +22,7 @@ GHT = '''
        |..........Facebook Attack By CoumingX.......|
         +---------------------------------------+
 '''
-print "Note: -Jagan Di Salah Gunakan Ya Ngentod !"
+print "-Jagan Di Salah Gunakan Ya Ngentod !"
 print "# CTRL+C Exit Program"
 print "# Use www.graph.facebook.com" 
 
