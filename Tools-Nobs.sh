@@ -5,6 +5,8 @@
 #MikirMakeOtakGblk!
 clear
 cd modul
+echo -e
+
    /-----------------\
   /  ---------------- \
  /     -Tools-Nobs-    \
