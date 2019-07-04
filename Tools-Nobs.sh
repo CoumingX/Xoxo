@@ -4,15 +4,9 @@
 #KagaAdaFaedahnyaNgeRecode!
 #MikirMakeOtakGblk!
 clear
-cd modul
-echo -e
+cd mmodule
 
-   /-----------------\
-  /  ---------------- \
- /     -Tools-Nobs-    \
- \      -CoumingX-     /
-  \  ---------------- /
-   \-----------------/
+figlet Tools-Nobs|lolcat
 
 blue='\033[34;1m'
 green='\033[32;1m'  
@@ -47,7 +41,7 @@ echo "[===============================================]>"
 echo $red "0.> keluar"
 echo "[+]===============================================[+]"
 echo "\033[32;1m"
-read -p "root@☆¤☆~# " vro
+read -p " ─#" vro
 
 if [ $vro = 1 ] || [ $vro = 1 ]
 then
