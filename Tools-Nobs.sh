@@ -15,7 +15,6 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
 echo $blue
-cat asw.txt
 echo ""
 echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
 echo "\033[32;1mAuthor : CoumingX"
@@ -40,7 +39,7 @@ echo "[===============================================]>"
 echo $red "0.> keluar"
 echo "[+]===============================================[+]"
 echo "\033[32;1m"
-read -p "CoumingX~# vro
+read -p "root@Tools-Nobs~# " vro
 
 if [ $vro = 1 ] || [ $vro = 1 ]
 then
