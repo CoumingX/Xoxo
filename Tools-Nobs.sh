@@ -6,7 +6,7 @@
 clear
 cd mmodule
 
-figlet Tools-Nobs|lolcat
+figlet Tools-Nobs |lolcat
 
 blue='\033[34;1m'
 green='\033[32;1m'  
