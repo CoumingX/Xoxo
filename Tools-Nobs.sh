@@ -28,13 +28,13 @@ echo ""
 echo "\033[32;1mPilih Sendiri Ngentod!:)?:"
 echo "\033[36;1m"
 echo "[===============================================]>"
-echo $blue "1.> Install Weeman"
+echo $blue "1.> Install Dark-Fb"
 echo "[===============================================]>"
 echo $yellow "2.> Install Red_Hawk"
 echo "[===============================================]>"
 echo $purple "3.> Install MetaSploit"
 echo "[===============================================]>"
-echo $cyan "4.> Install Brute Force Gmail "
+echo $cyan "4.> Install Ipcs "
 echo "[===============================================]>"
 echo $green "5.> Script Deface Creator"
 echo "[===============================================]>"
@@ -49,11 +49,11 @@ clear
 figlet "CoumingX" | lolcat
 sleep 1 
 apt install git
-apt install php
-git clone https://github.com/evait-security/weeman.git
-mv weeman $HOME
-cd $HOME/weeman
-python2 weeman.py
+apt install python2
+git clone https://github.com/rezadkim/dark-fb
+mv dark-fb $HOME
+cd $HOME/dark-fb
+python2 dark.py
 fi
 
 
@@ -96,9 +96,10 @@ toilet -f big -F gay "CoumingX"
 sleep 1
 apt update && apt upgrade
 apt install git
-git clone https://github.com/JamesAndresCM/Brute_force_gmail
-mv Brute_force_gmail $HOME
-cd $HOME/Brute_force_gmail
+apt install python2
+ git clone https://github.com/kancotdiq/ipcs
+mv ipcs $HOME
+cd $HOME/ipcs
 ls
 if
 
