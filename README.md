@@ -1,4 +1,13 @@
 # Xoxo
 Program BY COUMINGX
-Menggunakan Bahasa Programan Python.
-Program Ini Aman Untuk Di Gunakan.
+Cara install
+
+apt update && apt upgrade
+apt install lolcat
+apt install ruby
+apt install cowsay
+apt install git
+gem install lolcat
+git clone https://github.com/CoumingX/Xoxo
+cd Xoxo
+sh Tools-Nobs.sh
