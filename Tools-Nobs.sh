@@ -4,7 +4,7 @@
 #KagaAdaFaedahnyaNgeRecode!
 #MikirMakeOtakGblk!
 clear
-cd mmodule
+cd module
 
 figlet Tools-Nobs |lolcat
 
